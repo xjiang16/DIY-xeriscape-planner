@@ -1,25 +1,29 @@
 # DIY-Xeriscape-Planner 🌵
-A Python-based tool built with Streamlit to help homeowners visualize sustainable, drought-tolerant landscaping.
 
+An interactive web application built with Streamlit that allows homeowners to visualize drought-tolerant landscape designs by overlaying plant "stickers" onto photos of their own property.
 Built with **Streamlit** and **OpenCV/Pillow**, this tool bridges the gap between static gardening ideas and functional DIY planning.
 
-### Current Features:
-- **Photo Upload:** Support for JPG, PNG, and HEIC house exterior photos.
-- **Interactive Canvas:** A custom-built drawing layer that allows users to mark plant placements directly on their yard photo.
-- **Real-time Metrics:** Automatically counts and tracks the number of plants planned in the current session.
-- **Sustainability Focus:** Specifically tailored for Xeriscaping (low-water) design principles.
+## 🚀 Key Features
+- **Cross-Platform Image Support:** Fully compatible with HEIC (iPhone), PNG, and JPEG formats.
+- **Interactive Design Canvas:** Precision placement of plants using a coordinate-mapped drawing interface.
+- **Multi-Plant Memory:** Utilizes Streamlit Session State to track and remember different plant species selections across multiple clicks.
+- **High-Resolution Rendering:** Scales UI coordinates to original image dimensions for a professional-grade final export.
+- **Instant Budgeting:** Real-time plant counting for project estimation.
+- **Export Capabilities:** Generate and download finalized high-resolution JPEG designs.
 
 ## Tech Stack
 - **Language:** Python 3.10+
 - **Frontend/App Framework:** Streamlit
 - **Image Processing:** Pillow (PIL)
 - **Interactive Components:** Streamlit Drawable Canvas
+- **Data Handling:** JSON coordinate mapping & Python Session State
 
-## Roadmap
-- [ ] **Phase 1:** Image Upload & Side-by-side Layout (Completed)
-- [ ] **Phase 2:** Interactive Coordinate Mapping & Canvas (Current)
-- [ ] **Phase 3:** Replace coordinate boxes with transparent SVG/PNG plant stickers.
-- [ ] **Phase 4:** AI-powered "Grass Removal" using Segment Anything (SAM) to visualize gravel/mulch textures.
+## 📈 Roadmap
+- [x] Phase 1: Layout & Image Upload
+- [x] Phase 2: Interactive Canvas Integration
+- [x] Phase 3: Coordinate Scaling & Multi-Plant Rendering Logic
+- [ ] Phase 4: Dynamic Cost Estimation & Plant Database
+- [ ] Phase 5: AI-Powered "Green-to-Gravel" Ground Cover Replacement
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/xjiang16/DIY-xeriscape-planner.git`
